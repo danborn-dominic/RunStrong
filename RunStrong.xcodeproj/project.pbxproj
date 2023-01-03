@@ -8,21 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		07FEA7722964E4BA00374853 /* RunStrongApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEA7712964E4BA00374853 /* RunStrongApp.swift */; };
-		07FEA7742964E4BA00374853 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEA7732964E4BA00374853 /* ContentView.swift */; };
+		07FEA7742964E4BA00374853 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEA7732964E4BA00374853 /* LaunchView.swift */; };
 		07FEA7762964E4BC00374853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FEA7752964E4BC00374853 /* Assets.xcassets */; };
 		07FEA7792964E4BC00374853 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FEA7782964E4BC00374853 /* Preview Assets.xcassets */; };
 		07FEA77B2964E4BC00374853 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEA77A2964E4BC00374853 /* Persistence.swift */; };
 		07FEA77E2964E4BC00374853 /* RunStrong.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07FEA77C2964E4BC00374853 /* RunStrong.xcdatamodeld */; };
+		07FEA78E2964E80E00374853 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEA78D2964E80E00374853 /* HomeView.swift */; };
+		07FEA7902964E81700374853 /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEA78F2964E81700374853 /* WorkoutsView.swift */; };
+		07FEA7922964E82300374853 /* RecentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEA7912964E82300374853 /* RecentView.swift */; };
+		07FEA7942964E82C00374853 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEA7932964E82C00374853 /* SettingsView.swift */; };
+		07FEA7962964E83F00374853 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEA7952964E83F00374853 /* RectangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07FEA76E2964E4BA00374853 /* RunStrong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunStrong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FEA7712964E4BA00374853 /* RunStrongApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunStrongApp.swift; sourceTree = "<group>"; };
-		07FEA7732964E4BA00374853 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07FEA7732964E4BA00374853 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		07FEA7752964E4BC00374853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07FEA7782964E4BC00374853 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07FEA77A2964E4BC00374853 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		07FEA77D2964E4BC00374853 /* RunStrong.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RunStrong.xcdatamodel; sourceTree = "<group>"; };
+		07FEA78D2964E80E00374853 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		07FEA78F2964E81700374853 /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
+		07FEA7912964E82300374853 /* RecentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentView.swift; sourceTree = "<group>"; };
+		07FEA7932964E82C00374853 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		07FEA7952964E83F00374853 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				07FEA7712964E4BA00374853 /* RunStrongApp.swift */,
-				07FEA7732964E4BA00374853 /* ContentView.swift */,
+				07FEA7842964E6B900374853 /* Views */,
+				07FEA7862964E6C700374853 /* Models */,
+				07FEA7852964E6BF00374853 /* ViewModels */,
 				07FEA7752964E4BC00374853 /* Assets.xcassets */,
 				07FEA77A2964E4BC00374853 /* Persistence.swift */,
 				07FEA77C2964E4BC00374853 /* RunStrong.xcdatamodeld */,
@@ -71,6 +83,33 @@
 				07FEA7782964E4BC00374853 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07FEA7842964E6B900374853 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07FEA7732964E4BA00374853 /* LaunchView.swift */,
+				07FEA78D2964E80E00374853 /* HomeView.swift */,
+				07FEA78F2964E81700374853 /* WorkoutsView.swift */,
+				07FEA7912964E82300374853 /* RecentView.swift */,
+				07FEA7932964E82C00374853 /* SettingsView.swift */,
+				07FEA7952964E83F00374853 /* RectangleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07FEA7852964E6BF00374853 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		07FEA7862964E6C700374853 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +183,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				07FEA77E2964E4BC00374853 /* RunStrong.xcdatamodeld in Sources */,
+				07FEA7942964E82C00374853 /* SettingsView.swift in Sources */,
 				07FEA77B2964E4BC00374853 /* Persistence.swift in Sources */,
-				07FEA7742964E4BA00374853 /* ContentView.swift in Sources */,
+				07FEA7902964E81700374853 /* WorkoutsView.swift in Sources */,
+				07FEA7742964E4BA00374853 /* LaunchView.swift in Sources */,
+				07FEA7962964E83F00374853 /* RectangleView.swift in Sources */,
+				07FEA78E2964E80E00374853 /* HomeView.swift in Sources */,
+				07FEA7922964E82300374853 /* RecentView.swift in Sources */,
 				07FEA7722964E4BA00374853 /* RunStrongApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

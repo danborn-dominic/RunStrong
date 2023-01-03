@@ -13,7 +13,7 @@ struct RunStrongApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
